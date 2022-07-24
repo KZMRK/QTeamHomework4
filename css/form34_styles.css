@@ -1,0 +1,144 @@
+body {
+    background-color: gray;
+}
+.form-header {
+    padding: 15px 20px;
+}
+.form-header span {
+    font-size: 20px;
+}
+hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid #E0E0E0;
+}
+.container input[type=password],
+.container input[type=text],
+.container input[type=submit] {
+    display: block;
+    border-radius: 2px;
+    width: 100%;
+}
+.container input[type=text],
+.container input[type=password] {
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #E0E0E0;
+}
+.container {
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 490px;
+    background-color: white;
+    font-family: Montserrat, Arial, sans-serif;
+}
+.container-part {
+    padding: 10px 20px;
+    display: inline-block;
+}
+.container-part1 {
+    width: 220px;
+}
+.container-part2 {
+    width: 180px;
+}
+.form-part {
+    margin-bottom: 10px;
+    display: block;
+}
+.input-label,
+.form-part p{
+    color: #898888;
+    font-size: 10px;
+}
+.container input[type=submit] {
+    background-color: #00A046;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.container a {
+    text-decoration: none;
+    color: #3E77AA;
+}
+input[type=checkbox] {
+    accent-color: #00A046;
+}
+
+.form-part a,
+.checkbox-label {
+    font-size: 10px;
+}
+.remember-password {
+    float: right;
+}
+.checkbox-label {
+    vertical-align: top;
+}
+
+.container-part2 {
+    vertical-align: top;
+}
+.container-part2 a {
+    border: 1px solid #EFEFEF;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: #F5F5F5;
+    border-radius: 3px;
+}
+.container-part2 a img {
+    width: 15px;
+}
+.form-part .register {
+    display: block;
+    text-align: center;
+    font-size: 12px ;
+
+}
+.container-part2 .input-label {
+    display: block;
+    text-align: center;
+}
+/* the vertical line with a text */
+.or {
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+
+}
+.or-line {
+    float: left;
+    border-right: 1px solid #E0E0E0;
+    height: 13em;
+}
+.or-label {
+    background: #fff;
+    color: #aaa;
+    margin-left: -1.25em;
+    margin-top: 10em;
+    padding: .5em;
+    position: absolute;
+    width: 1em;
+    font-size: 10px;
+}
+.or-line2 {
+    height: 24em;
+}
+.or-label2 {
+    margin-top: 15em;
+}
+.hide-eye {
+    width: 18px;
+    vertical-align: center;
+}
+#password2 {
+    display: inline-block;
+    width: 85%;
+}

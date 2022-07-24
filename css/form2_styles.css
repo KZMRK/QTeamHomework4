@@ -1,0 +1,20 @@
+.container {
+    width: 490px;
+    margin: 0 auto;
+}
+.name-col {
+    float: left;
+    width: 28%;
+}
+.row {
+    margin-bottom: 10px;
+}
+label {
+    display: inline-block;
+}
+.form-item-col {
+    margin-left: 60px;
+}
+.buttons {
+    margin-left: 28%;
+}

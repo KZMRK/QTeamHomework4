@@ -1,0 +1,29 @@
+a {
+    display: block;
+    margin-bottom: 10px;
+}
+img {
+    width: 40px;
+}
+.pretty-link {
+    padding: 5px 10px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: #FFF803;
+    color: black;
+    font-weight: bold;
+}
+.pretty-link {
+    text-decoration: none;
+}
+.pretty-link:hover {
+    opacity: 0.5;
+}
+.pretty-link:visited {
+    border-bottom: gray;
+    border-top: gray;
+}
+.pretty-link:active {
+    border-color: red;
+    color: red;
+}

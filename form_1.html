@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Форма 1</title>
+    <link rel="stylesheet" href="css/form1_styles.css">
+</head>
+<body>
+
+<div class="container">
+    <form action="">
+        <div class="form-row">
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter first name">
+        </div>
+        <div class="form-row">
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter last name">
+        </div>
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter email">
+        </div>
+        <div class="form-row">
+            <label for="birthday">Born in</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+        <div class="form-row">
+            <label for="en">en</label>
+            <input type="radio" id="en" name="language" value="en">
+            <label for="ua">ua</label>
+            <input type="radio" id="ua" name="language" value="ua">
+        </div>
+        <div class="form-row">
+            <select id="gender" name="gender">
+                <option value="" disabled selected hidden>select gender</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select><br>
+        </div>
+        <div class="form-row">
+            <input type="submit" value="Send"><br>
+        </div>
+        <div class="form-row">
+            <input type="file" name="myfile">
+        </div>
+    </form>
+</div>
+</body>
+</html>
